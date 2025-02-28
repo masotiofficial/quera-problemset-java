@@ -9,8 +9,6 @@ import java.util.Scanner;
 */
 
 public class KhoshAmad {
-    private static final Scanner SCANNER = new Scanner(System.in);
-
     public static void main(String[] args) {
         announceCompetitionStart(Input.getInput().n);
     }
