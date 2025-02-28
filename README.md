@@ -1,4 +1,4 @@
-# Quera Problemset - Java Solutions 🚀
+# 👨‍💻 Quera Problemset - Java Solutions
 
 This repository contains Java solutions for problems from the [Quera Problemset](https://quera.org/problemset).  
 The goal is to provide clean, efficient, and well-structured solutions following Clean Code principles and Functional Programming paradigms.
