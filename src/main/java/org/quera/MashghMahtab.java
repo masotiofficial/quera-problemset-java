@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*
 
-  Problem link: https://quera.org/problemset/589
+  Problem link: https://quera.org/problemset/271649
 
 */
 
