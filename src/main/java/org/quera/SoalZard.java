@@ -1,8 +1,10 @@
+package org.quera;
+
 import java.util.Scanner;
 
 /*
 
-  Problem link: https://quera.org/problemset/123798
+  Problem link: https://quera.org/problemset/3537
 
 */
 
