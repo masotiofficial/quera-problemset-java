@@ -10,16 +10,16 @@ import java.util.Scanner;
 
 public class ReghabatBaZaman {
     public static void main(String[] args) {
-        calculateMinimumTime();
+        minimumTime();
     }
 
-    private static void calculateMinimumTime() {
+    private static void minimumTime() {
         Input input = Input.getInput();
 
-        System.out.println(calculateTotalDistance(input.k, input.n, input.buildings));
+        System.out.println(calculateMinimumTime(input.k, input.n, input.buildings));
     }
 
-    private static int calculateTotalDistance(int k, int n, int[] buildings) {
+    private static int calculateMinimumTime(int k, int n, int[] buildings) {
         int totalDistance = 0;
 
         int heightDifference;
