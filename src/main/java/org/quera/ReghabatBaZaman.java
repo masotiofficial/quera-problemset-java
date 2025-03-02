@@ -20,18 +20,18 @@ public class ReghabatBaZaman {
     }
 
     private static int calculateMinimumTime(int k, int n, int[] buildings) {
-        int totalDistance = 0;
+        int totalTime = 0;
 
         int heightDifference;
         for (int i = 0; i < buildings.length - 1; i++) {
             heightDifference = Math.abs(buildings[i] - buildings[i + 1]);
 
-            totalDistance += heightDifference % k == 0 ? heightDifference / k : heightDifference / k + 1;
+            totalTime += heightDifference % k == 0 ? heightDifference / k : heightDifference / k + 1;
         }
 
-        totalDistance += n;
+        totalTime += n;
 
-        return totalDistance;
+        return totalTime;
     }
 
     private record Input(int k, int n, int[] buildings) {
