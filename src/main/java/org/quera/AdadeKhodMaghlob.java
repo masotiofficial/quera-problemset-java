@@ -1,3 +1,5 @@
+package org.quera;
+
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
