@@ -2,6 +2,12 @@ package org.quera;
 
 import java.util.Scanner;
 
+/*
+
+  Problem link: https://quera.org/problemset/307
+
+*/
+
 public class MashineMatni {
     public static void main(String[] args) {
         process();
