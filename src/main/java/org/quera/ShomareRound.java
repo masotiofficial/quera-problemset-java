@@ -46,7 +46,7 @@ public class ShomareRound {
                 count = 1;
             }
         }
-        
+
         return max;
     }
 
