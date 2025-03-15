@@ -16,10 +16,10 @@ public class HamaiesheZendegieBehtar {
     private static void process() {
         IO input = IO.input();
 
-        IO.output(lastWatermelon(input.r, input.c));
+        IO.output(routing(input.r, input.c));
     }
 
-    private static String lastWatermelon(int r, int c) {
+    private static String routing(int r, int c) {
         String route;
 
         route = c <= 10 ? "Right" : "Left";
