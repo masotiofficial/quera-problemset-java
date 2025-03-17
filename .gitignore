@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Incomplete Solve ###
+src/main/java/IncompleteSolve/
