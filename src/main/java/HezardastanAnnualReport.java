@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /*
 
-  Problem link: ]https://quera.org/problemset/275506
+  Problem link: https://quera.org/problemset/275506
 
 */
 
