@@ -17,7 +17,7 @@ public class KhaneyeDost {
         IO.output(calculateArea(input.n));
     }
 
-    static private int calculateArea(int side) {
+    private static int calculateArea(int side) {
         return side * side;
     }
 
