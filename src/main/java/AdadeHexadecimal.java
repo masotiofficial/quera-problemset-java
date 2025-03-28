@@ -19,7 +19,7 @@ public class AdadeHexadecimal {
         IO.output(countBinaryNumbers(input.n));
     }
 
-    static private int countBinaryNumbers(int n) {
+    private static int countBinaryNumbers(int n) {
         int result = 0;
 
         Queue<String> binaryNumbers = new LinkedList<>();
