@@ -1,4 +1,4 @@
-package Spam;
+package P0049605;
 
 public enum SpamType {
 

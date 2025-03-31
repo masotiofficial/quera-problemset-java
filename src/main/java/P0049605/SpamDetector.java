@@ -1,6 +1,12 @@
-package Spam;
+package P0049605;
 
 import java.util.regex.Pattern;
+
+/*
+
+  Problem link: https://quera.org/problemset/49605
+
+*/
 
 public class SpamDetector {
     public SpamType[] detectSpams(Message[] messages) {

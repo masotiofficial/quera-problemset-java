@@ -1,9 +1,9 @@
-package WorldCup.test;
+package P0157779.test;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import WorldCup.Predictor;
+import P0157779.Predictor;
 
 
 public class PredictorSampleTest {

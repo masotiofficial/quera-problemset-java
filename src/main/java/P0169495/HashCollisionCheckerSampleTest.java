@@ -1,11 +1,11 @@
-package HashCollisionCheckerInitial;
+package P0169495;
 
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.HashSet;
 
-import static HashCollisionCheckerInitial.HashCollisionChecker.countOfUniqueHashCodes;
+import static P0169495.HashCollisionChecker.countOfUniqueHashCodes;
 import static org.junit.Assert.assertEquals;
 
 public class HashCollisionCheckerSampleTest {
