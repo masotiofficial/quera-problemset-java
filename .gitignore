@@ -39,3 +39,6 @@ build/
 
 ### Incomplete Solve ###
 src/main/java/IncompleteSolve/
+
+### Miscellaneous Project Management Codes ###
+src/main/java/Helper/
