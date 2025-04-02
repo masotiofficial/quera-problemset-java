@@ -16,13 +16,13 @@ public class P0010326 {
     private static void process() {
         IO input = IO.input();
 
-        IO.output(Arrays.stream(calculate(input.chocolates))
+        IO.output(Arrays.stream(countChocolatesEaten(input.chocolates))
                 .mapToObj(String::valueOf)
                 .collect(Collectors.joining(" "))
         );
     }
 
-    private static int[] calculate(int[] chocolates) {
+    private static int[] countChocolatesEaten(int[] chocolates) {
         int[] result = new int[chocolates.length];
 
         int currentPart = 2;
