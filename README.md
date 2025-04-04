@@ -44,8 +44,14 @@ The project is organized as follows:
 3. Compile and run a specific solution:
 
    cd src/main/java/org/quera <br>
-   javac ProblemsWithFinglishNames.java <br>
-   java ProblemsWithFinglishNames <br>
+   javac P{7-digit No. Of The Problem}.java <br>
+   java P{7-digit No. Of The Problem}.java <br>
+
+   Or
+
+   cd src/main/java/org/quera/P{7-digit No. Of The Problem} <br>
+   javac ExampleOfExecutableFileName.java <br>
+   java ExampleOfExecutableFileName.java <br>
 
 ---
 
